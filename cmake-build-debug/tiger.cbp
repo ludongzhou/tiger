@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tiger"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhouludong/ClionProjects/tiger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zhouludong/ClionProjects/tiger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zhouludong/ClionProjects/tiger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tiger">
+				<Option output="/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/tiger" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhouludong/ClionProjects/tiger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 tiger"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tiger/fast">
+				<Option output="/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/tiger" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhouludong/ClionProjects/tiger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 tiger/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhouludong/ClionProjects/tiger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap1/main.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap1/makefile">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap1/prog1.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap1/prog1.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap1/slp.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap1/slp.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap1/util.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap1/util.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap10/flowgraph.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap10/graph.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap10/graph.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap11/color.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap11/regalloc.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap12/runtime.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap2/driver.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap2/errormsg.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap2/errormsg.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap2/makefile">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap2/tiger.lex">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap2/tokens.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap2/util.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap2/util.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap3/errormsg.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap3/errormsg.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap3/lex.yy.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap3/makefile">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap3/parsetest.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap3/tiger.grm">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap3/util.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap3/util.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap3/y.output">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap4/absyn.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap4/absyn.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap4/lex.yy.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap4/makefile">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap4/parse.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap4/parse.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap4/prabsyn.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap4/prabsyn.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap4/symbol.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap4/symbol.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap4/table.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap4/table.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap4/tiger.grm">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap5/types.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap5/types.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap6/temp.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap6/temp.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap7/printtree.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap7/printtree.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap7/tree.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap7/tree.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap8/canon.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap8/canon.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap9/assem.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap9/assem.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap9/canon.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap9/canon.h">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/chap9/main.c">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/merge.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/queens.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test1.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test10.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test11.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test12.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test13.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test14.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test15.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test16.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test17.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test18.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test19.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test2.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test20.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test21.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test22.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test23.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test24.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test25.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test26.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test27.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test28.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test29.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test3.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test30.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test31.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test32.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test33.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test34.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test35.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test36.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test37.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test38.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test39.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test4.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test40.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test41.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test42.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test43.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test44.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test45.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test46.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test47.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test48.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test49.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test5.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test6.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test7.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test8.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/testcases/test9.tig">
+			<Option target="tiger"/>
+		</Unit>
+		<Unit filename="/Users/zhouludong/ClionProjects/tiger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
