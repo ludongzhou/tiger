@@ -10,7 +10,7 @@ int max_exp(A_exp);
 
 int main() {
     A_stm statement = prog();
-    printf("the maximum number of arguments of any print statement is: %d", maxargs(statement));
+    printf("the maximum number of arguments of any print statement is: %d\n", maxargs(statement));
 }
 
 int maxargs(A_stm statement) {
@@ -35,13 +35,31 @@ int max ( int a, int b )
 }
 
 int count_exp_list(A_expList exp_list) {
-
+    if (exp_list->kind == A_lastExpList) {
+        return 1;
+    }
+    else {
+        return 1 + count_exp_list(exp_list->u.pair.tail);
+    }
 }
 
 int max_exp_list(A_expList exp_list) {
-
+    if (exp_list->kind == A_lastExpList) {
+        return max_exp(exp_list->u.last);
+    }
+    else {
+        return max(max_exp(exp_list->u.pair.head), max_exp_list(exp_list->u.pair.tail));
+    }
 }
 
 int max_exp(A_exp exp) {
-
+    if (exp->kind == A_idExp || exp->kind == A_numExp) {
+        return 0;
+    }
+    else if (exp->kind == A_opExp) {
+        return max(max_exp(exp->u.op.left), max_exp(exp->u.op.right));
+    }
+    else {
+        return max(maxargs(exp->u.eseq.stm), max_exp(exp->u.eseq.exp));
+    }
 }
