@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "util.h"
 #include "errormsg.h"
 #include "tokens.h"
@@ -25,7 +26,7 @@ string tokname(tok) {
 
 int main(int argc, char **argv) {
  string fname; int tok;
- if (argc!=2) {fprintf(stderr,"usage: a.out filename\n"); exit(1);}
+ if (argc!=2) {fprintf(stderr,"usage: lextest filename\n"); exit(1);}
  fname=argv[1];
  EM_reset(fname);
  for(;;) {
