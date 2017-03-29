@@ -1,0 +1,20 @@
+2.1 Write regular expressions for each of the following.
+    a. Strings over the alphabet {a, b, c} where the first a precedes the first b.
+        [a|c][a|b|c]*
+    b. Strings over the alphabet {a, b, c} with an even number of a’s.
+        [[b|c]*[a[b|c]*a]?]*
+    c. Binary numbers that are multiples of four.
+        [1|0]*00
+    d. Binary numbers that are greater than 101001.
+
+    e. Strings over the alphabet {a, b, c} that don’t contain the contiguous substring baa.
+        [[a|c]|[bc|b+c|b+a[b|c]]]*
+    f. The language of nonnegative integer constants in C, where numbers
+       beginning with 0 are octal constants and other numbers are decimal constants.
+        [0[0-7]*|[0-9]*]
+    g. Binary numbers n such that there exists an integer solution of a^n + b^n = c^n.
+        [1|0]+
+
+2.2 For each of the following, explain why you’re not surprised that there is no regular expression defining it.
+    a. Strings of a’s and b’s where there are more a’s than b’s.
+    b. Strings of a’s and b’s that are palindromes (the same forward as backward). c. Syntactically correct C programs.
