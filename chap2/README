@@ -1,0 +1,74 @@
+chap2 implement a tiny lexical analyzer
+
+input: source code
+
+output: token string
+
+example:
+
+    float match0(char *s) /* find a zero */
+    {
+        if (!strncmp(s, "0.0", 3))
+            return 0.;
+    }
+
+    ||
+    ||
+    \/
+
+    COMMA STRING(0.0) COMMA NUM(3) RPAREN RPAREN RETURN REAL(0.0) SEMI RBRACE EOF
+
+
+the workflow is as followed:
+    1. use language grammar to construct regular expressions that can represent language token.
+    2. convert regular expression to NFA.
+    3. convert NFA to DFA.
+    4. convert DFA to transition matrix.
+    5. use transition matrix to identify source code as token.
+
+
+1. regular expression(from http://mechdc.blogspot.com/2010/05/c-tokens.html)
+    keywords:
+        auto	break	case	char	const
+        continue	default	do	double	else
+        enum	extern	float	for	goto
+        if	int	long	register	return
+        short	signed	sizeof	static	struct
+        switch	typedef	union	unsigned	void
+        volatile	while
+
+    id:
+        id = [a-zA-Z_][a-zA-Z0-9_]*
+
+    constant:
+        decimal int = [+-]?[0-9]+
+        octal   int = O[0-7]+
+        hex     int = (0x|0X)[0-9a-fA-F]+
+
+        double = [-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?
+
+        char = \'[a-zA-Z0-9]\'
+        string = \"[a-zA-Z0-9]+\"
+
+    special symbols:
+        [] () {} , ; : * … = #
+
+    operators:
+        + - * / %
+
+        < <= > >= == !=
+
+        && || !
+
+        =
+
+        ++ --
+
+        ? :
+
+        & | ^ << >>
+
+        , sizeof
+
+        pointer & *
+
